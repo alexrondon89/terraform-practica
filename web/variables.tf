@@ -1,13 +1,3 @@
-variable "access_key"{
-	description = "aws access key"
-	default = "AKIA3MMS2GOKDE25TANK" 
-}
-
-variable "secret_key"{
-	description = "aws secret key"
-	default = "QlBYeZeSVNqNMfcZKdvQZuQQzu69fXA8sr/uSm3L"
-}
-
 variable "region"{
 	description = "aws region"
 	default = "us-east-1"
@@ -27,4 +17,6 @@ variable "security_group_ids"{
 	default = ["sg-4c4a671a", "sg-067d1405153bbc8e2"]
 }
 
-
+variable "key_name" {
+	description = "The AWS key pair to use for resources."
+}
