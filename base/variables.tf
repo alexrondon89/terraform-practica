@@ -1,12 +1,3 @@
-variable "access_key"{
-	description = "aws access key"
-	default = "AKIA3MMS2GOKDE25TANK" 
-}
-
-variable "secret_key"{
-	description = "aws secret key"
-	default = "QlBYeZeSVNqNMfcZKdvQZuQQzu69fXA8sr/uSm3L"
-}
 
 variable "region"{
 	description = "aws region"
